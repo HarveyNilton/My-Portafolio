@@ -1,0 +1,64 @@
+.header {
+  background-image: url('/src/assets/imag/fon-porta.jpg');
+
+}
+
+.capa-header {
+  height: 6vmax;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.068);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.39);
+
+
+}
+
+.name-logo {
+  font-weight: 600;
+  color: white;
+  margin-left: 20px;
+
+}
+
+
+
+.main {
+  
+  background-image: url('/src/assets/imag/fon-porta.jpg');
+ 
+}
+
+
+.container-acerca-de-mi {
+  max-width: 800px;
+  margin: 0 auto;
+  color: white;
+  padding: 20px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+
+  box-shadow: 2px 2px 8px rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.068);
+  padding: 20px;
+
+}
+
+.titulo{
+  text-shadow: 2px 2px 8px rgb(37, 37, 37);
+  text-align: center;
+  font-weight: 400;
+  font-size: 5vmin;
+}
+
+.description-acerca-de-mi p {
+  font-size: 3vmin;
+  font-weight: 200;
+  text-align: justify;
+  text-shadow: 2px 2px 8px rgb(37, 37, 37);
+}

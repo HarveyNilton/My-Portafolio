@@ -1,0 +1,10 @@
+.nav-bar{
+    width: 100vw;
+    height: 0px;
+    background-image: url('/src/assets/imag/fon-porta.jpg');
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}

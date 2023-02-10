@@ -1,0 +1,57 @@
+.container-my-habilidades {
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+    padding: 20px;
+  
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.068);
+    padding: 20px;
+
+}
+
+.icon-habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon-hab{
+    width: 50%;
+}
+
+.item-habilidades{
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.068);
+}
+
+.item-habilidades:hover{
+    transition: transform 0.5s;
+    transform: scale(1.1);
+    
+}
+
+.item-habilidades p{
+    text-align: center;
+}
