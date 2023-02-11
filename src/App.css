@@ -1,6 +1,6 @@
 .header {
-  background-image: url('/src/assets/imag/fon-porta.jpg');
-
+  /*background-image: url('/src/assets/imag/fon-porta.jpg');*/
+  background: linear-gradient(90deg, rgb(37, 81, 126) 25%, rgba(55, 75, 146, 0.972) 100%, rgba(95, 107, 150, 0.9416141456582633) 100%);
 }
 
 .capa-header {
@@ -20,9 +20,10 @@
   margin-left: 20px;
   /*-webkit-text-stroke: 0.5px rgb(255, 255, 255);*/
 
- /* animation: animilogo 2s infinite ;*/
+  /* animation: animilogo 2s infinite ;*/
 
 }
+
 /*
 @keyframes animilogo {
   0% {
@@ -39,9 +40,11 @@
 
 
 .main {
-  
-  background-image: url('/src/assets/imag/fon-porta.jpg');
- 
+
+
+  background: linear-gradient(90deg, rgb(37, 81, 126) 25%, rgba(55, 75, 146, 0.972) 100%, rgba(95, 107, 150, 0.9416141456582633) 100%);
+  /*background-image: url('/src/assets/imag/fon-porta.jpg');*/
+
 }
 
 
@@ -64,7 +67,7 @@
 
 }
 
-.titulo{
+.titulo {
   text-shadow: 2px 2px 8px rgb(37, 37, 37);
   text-align: center;
   font-weight: 400;
@@ -75,17 +78,17 @@
   text-align: justify;
   font-weight: 100;
   line-height: 25px;
-  
+
 }
 
-.container-cv{
+.container-cv {
   max-width: 800px;
-    margin: 0 auto;
+  margin: 0 auto;
 
-    padding: 20px;
+  padding: 20px;
 }
 
-.cv{
+.cv {
   height: 50px;
   display: flex;
   justify-content: center;
@@ -101,16 +104,17 @@
   font-size: 1.3rem;
 }
 
-.icon-cv{
+.icon-cv {
   width: 40px;
 }
 
-@keyframes animcv{
-  0%{
+@keyframes animcv {
+  0% {
     transition: transform 0.5s;
     transform: scale(1);
   }
-  50%{
+
+  50% {
     transition: transform 0.5s;
     transform: scale(0.7);
   }
