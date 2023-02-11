@@ -15,9 +15,10 @@
 }
 
 .name-logo {
-  font-weight: 600;
-  color: white;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
   margin-left: 20px;
+  /*-webkit-text-stroke: 0.5px rgb(255, 255, 255);*/
 
 }
 

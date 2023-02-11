@@ -26,7 +26,7 @@
 
 .item-experiencia{
     display: flex;
-  
+    border-radius: 5px;
     box-shadow: 2px 2px 8px rgb(255, 255, 255);
     background: rgba(255, 255, 255, 0.068);
     padding: 20px;
