@@ -20,6 +20,7 @@
 
 .container-item-portafolio {
     margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
@@ -51,9 +52,20 @@
 .item-portafolio:hover{
     transition: transform 0.5s;
     transform: scale(1.1);
-    
+    animation: changeColor 4s infinite ;
 }
 
+@keyframes changeColor{
+    0%{
+        background: #A31ACB; 
+    }
+    50%{
+        background: #39B5E0; 
+    }
+    100%{
+        background:#400D51; 
+    }
+}
 .video {
    
     border-radius: 5px;

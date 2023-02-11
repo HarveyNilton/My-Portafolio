@@ -8,7 +8,7 @@ import appClima from '/src/assets/video/appclima.mp4'
 
 const Portafolio = () => {
     return (
-        <section className='container-portafolio'>
+        <section id='portafolio' className='container-portafolio'>
             <div className="portafolio">
                 <h3 className='titulo'>Portafolio</h3>
                 

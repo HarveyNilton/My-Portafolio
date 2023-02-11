@@ -20,8 +20,22 @@
   margin-left: 20px;
   /*-webkit-text-stroke: 0.5px rgb(255, 255, 255);*/
 
-}
+ /* animation: animilogo 2s infinite ;*/
 
+}
+/*
+@keyframes animilogo {
+  0% {
+      transition: transform 0.5s;
+      transform: scale(1);
+  }
+
+  50% {
+      transition: transform 0.5s;
+      transform: scale(0.9);
+  }
+}
+*/
 
 
 .main {
@@ -62,4 +76,39 @@
   font-weight: 100;
   line-height: 25px;
   
+}
+
+.container-cv{
+  max-width: 800px;
+    margin: 0 auto;
+
+    padding: 20px;
+}
+
+.cv{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.068);
+
+  animation: animcv 3s infinite;
+}
+.cv a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+@keyframes animcv{
+  0%{
+    transition: transform 0.5s;
+    transform: scale(1);
+  }
+  50%{
+    transition: transform 0.5s;
+    transform: scale(0.7);
+  }
 }

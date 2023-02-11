@@ -10,7 +10,7 @@ import kotlin from '/src/assets/imag/kotlin.png'
 
 const MyHabiliti = () => {
     return (
-        <section className='container-my-habilidades'>
+        <section id='habilidades' className='container-my-habilidades'>
             <div className="habilidades">
                 <h3 className='titulo'>Mis Habilidades</h3>
                 <div className="icon-habilidades">

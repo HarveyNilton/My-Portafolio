@@ -1,10 +1,70 @@
-.nav-bar{
-    width: 100vw;
-    height: 0px;
-    background-image: url('/src/assets/imag/fon-porta.jpg');
+.nav-bar {
+    height: auto;
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     right: 0;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 2px 2px 8px rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.137);
+
+
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    justify-content: space-evenly;
+    transition: all 1s linear;
+
+}
+.nav-bar:hover{
+ 
+    animation: changeColor 4s infinite ;
+}
+
+@keyframes changeColor{
+    0%{
+        background: #A31ACB; 
+    }
+    50%{
+        background: #39B5E0; 
+    }
+    100%{
+        background:#400D51; 
+    }
+}
+
+.nav-bar-close {
+    transition: all 1s linear;
+    height: 0;
+}
+
+.container-item-nav {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+
+
+
+}
+
+.container-item-nav:hover {
+    transform: translateY(-10px);
+    transition: all 0.2s;
+   
+}
+
+.container-item-nav p {
+    font-size: 2vmin;
+    text-transform: uppercase;
+}
+
+.icon-menu {
+    width: 5vmin;
 
 }

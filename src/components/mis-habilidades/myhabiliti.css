@@ -49,8 +49,22 @@
 .item-habilidades:hover{
     transition: transform 0.5s;
     transform: scale(1.1);
-    
+    animation: changeColor 2s infinite;
 }
+
+
+@keyframes changeColor{
+    0%{
+        background: #A31ACB; 
+    }
+    50%{
+        background: #39B5E0; 
+    }
+    100%{
+        background:#400D51; 
+    }
+}
+
 
 .item-habilidades p{
     text-align: center;
