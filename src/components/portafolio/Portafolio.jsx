@@ -11,9 +11,8 @@ const Portafolio = () => {
         <section className='container-portafolio'>
             <div className="portafolio">
                 <h3 className='titulo'>Portafolio</h3>
+                
                 <div className="container-item-portafolio">
-
-
 
                     <a className="item-portafolio" href="https://e-commerce-harvey-lopez.netlify.app/#/" target="_blank">
 
