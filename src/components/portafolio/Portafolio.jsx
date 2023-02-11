@@ -45,8 +45,8 @@ const Portafolio = () => {
 
                         </div>
                         <div className="description">
-                            <h4>Pokedex</h4>
-                            <p> App simulador de card con información de los Pokemones.
+                            <h4>Pokédex</h4>
+                            <p> Aplicativo simulador de card con información de los Pokemones.
                                 <h5>
                                     <br /><br />Diseñado y desarrollado en versión web response. <br /><br />
                                     El backend se implementó con el API Pokeapi basada en node.js.
@@ -67,7 +67,7 @@ const Portafolio = () => {
                         </div>
                         <div className="description">
                             <h4>Rick And Morty</h4>
-                            <p> App simulador de card con información de los personajes de Rick And Mortyn.
+                            <p> Aplicativo simulador de card con información de los personajes de Rick And Mortyn.
                                 <h5>
                                     <br /><br />Diseñado y desarrollado en versión web response.
                                     <br /><br />El backend se implementó con el API Rick and Morty basada en node.js.
