@@ -1,0 +1,32 @@
+.container-portafolio{
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+    padding: 20px;
+
+}
+
+.portafolio{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.068);
+    padding: 20px;
+}
+
+.container-item-portafolio{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px ;
+    justify-content: center;
+    align-items: center;
+   
+}
+.item-portafolio{
+    width: 250px;
+    height: 300px;
+    background: red;
+}

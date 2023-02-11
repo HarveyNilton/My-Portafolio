@@ -57,8 +57,8 @@
 }
 
 .description-acerca-de-mi p {
-  font-size: 3vmin;
-  font-weight: 200;
   text-align: justify;
-  text-shadow: 2px 2px 8px rgb(37, 37, 37);
+  font-weight: 100;
+  line-height: 25px;
+  
 }
