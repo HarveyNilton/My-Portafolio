@@ -54,5 +54,6 @@
 .item-experiencia:hover{
     transition: transform 0.5s;
     transform: scale(0.80);
-    
+    color: rgb(19, 18, 18);
+    background: rgba(255, 255, 255, 0.281);
 }

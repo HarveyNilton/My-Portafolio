@@ -67,6 +67,7 @@
 
 }
 
+
 .titulo {
   text-shadow: 2px 2px 8px rgb(37, 37, 37);
   text-align: center;
@@ -102,20 +103,24 @@
   color: white;
   text-decoration: none;
   font-size: 1.3rem;
+  
 }
 
 .icon-cv {
   width: 40px;
+  fill: white;
 }
 
 @keyframes animcv {
   0% {
     transition: transform 0.5s;
     transform: scale(1);
+    
   }
 
   50% {
     transition: transform 0.5s;
     transform: scale(0.7);
+    
   }
 }

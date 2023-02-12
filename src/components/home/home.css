@@ -42,6 +42,18 @@
     width: 40px;
     height: 40px;
     cursor: pointer;
+    animation: boxShad 3s infinite;
+    border-radius: 50%;
+}
+
+@keyframes boxShad{
+    50%{
+        box-shadow: 2px 2px 8px white; 
+    }
+    100%{
+       
+    }
+    
 }
 
 .icon-social:hover {
@@ -92,7 +104,7 @@
     justify-content: center;
     overflow: hidden;
 
-    animation: animimageperfil 3s infinite;
+ /*animation: animimageperfil 3s infinite;*/
     /*animation: animationBoxShadow 2s infinite;*/
 
 }
@@ -113,6 +125,7 @@
     transition: transform 0.5s;
     transform: scale(1.1);
      animation: animimageperfil 3s infinite;
+     
 }
 
 .container-image-perfil img {
@@ -121,13 +134,11 @@
 }
 
 @keyframes animimageperfil {
-    0% {
-        transition: transform 0.5s;
-        transform: scale(1);
+    50% {
+        background: rgba(255, 255, 255, 0.425);
     }
 
-    50% {
-        transition: transform 0.5s;
-        transform: scale(0.8);
+    100% {
+       
     }
 }

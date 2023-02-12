@@ -16,9 +16,10 @@
     transition: all 1s linear;
 
 }
-.nav-bar:hover{
- 
-    animation: changeColor 4s infinite ;
+.nav-bar:hover {
+    
+    background: linear-gradient(90deg, rgb(37, 81, 126) 25%, rgba(55, 75, 146, 0.972) 100%, rgba(95, 107, 150, 0.9416141456582633) 100%);
+    
 }
 
 @keyframes changeColor{
@@ -56,10 +57,11 @@
 .container-item-nav:hover {
     transform: translateY(-10px);
     transition: all 0.2s;
-   
+    
 }
 
 .container-item-nav p {
+    
     font-size: 2vmin;
     text-transform: uppercase;
 }

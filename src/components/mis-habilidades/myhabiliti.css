@@ -49,7 +49,9 @@
 .item-habilidades:hover{
     transition: transform 0.5s;
     transform: scale(1.1);
-    animation: changeColor 2s infinite;
+    color: rgb(19, 18, 18);
+    background: rgba(255, 255, 255, 0.281);
+   /* animation: changeColor 2s infinite;*/
 }
 
 
