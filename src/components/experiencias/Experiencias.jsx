@@ -21,7 +21,7 @@ const Experiencias = () => {
                     </div>
                     <div className="item-experiencia">
                         <div className="anio">
-                            <p>2023</p>
+                            <p>2022</p>
                         </div>
                     
                         <div className="academia">

@@ -39,7 +39,7 @@ function App() {
           <div className="text">
             <h3 className='titulo'>Acerca de mi</h3>
             <div className='description-acerca-de-mi'>
-              <p>Soy una persona proactivo, siempre me ha gustado la tecnología por lo que decidi seguir estudiando Ingenieria de Sistemas en la Universidad de Mi Pais (Perú) el cual llegué a optener varios conocimientos de programación. <br /> Desde el año 2001 me encuentro laborando en la Marina de Guerra del Perú el cual ya alcance el grado de Técnico 2do., hoy en dia soy egresado de <b>Academlo</b> en el que optenido conocimiento de Diseño y Programación Web de Front-End con React. <br /> Estoy capacitado y apto para formar parte del equipo de trabajo a requerimiento de su empresa o compañia. </p>
+              <p>Soy una persona proactivo, siempre me ha gustado la tecnología por lo que decidí seguir estudiando Ingeniería de Sistemas en la Universidad de Mi País (Perú) el cual llegué a obtener varios conocimientos de programación.  <br /> Desde el año 2001 me encuentro laborando en la Marina de Guerra del Perú el cual ya alcance el grado de Técnico 2do., hoy en día soy egresado de <b>Academlo</b>  en el que obtenido conocimiento de Diseño y Programación Web de Front-End con React. <br /> Estoy capacitado y apto para formar parte del equipo de trabajo a requerimiento de su empresa o compañía. </p>
             </div>
           </div>
 
