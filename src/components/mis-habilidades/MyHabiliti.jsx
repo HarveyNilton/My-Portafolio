@@ -13,6 +13,7 @@ const MyHabiliti = () => {
         <section id='habilidades' className='container-my-habilidades'>
             <div className="habilidades">
                 <h3 className='titulo'>Mis Habilidades</h3>
+
                 <div className="icon-habilidades">
                     <figure className='item-habilidades'>
                         <img className='icon-hab' src={react} alt="" />
@@ -23,27 +24,27 @@ const MyHabiliti = () => {
                         <p>HTML</p>
                     </figure>
                     <figure className='item-habilidades'>
-                    <img className='icon-hab' src={css} alt="" />
+                        <img className='icon-hab' src={css} alt="" />
                         <p>CSS</p>
                     </figure>
                     <figure className='item-habilidades'>
-                    <img className='icon-hab' src={nodejs} alt="" />
+                        <img className='icon-hab' src={nodejs} alt="" />
                         <p>Node.js</p>
                     </figure>
                     <figure className='item-habilidades'>
-                    <img className='icon-hab' src={javascript} alt="" />
+                        <img className='icon-hab' src={javascript} alt="" />
                         <p>JavaScript</p>
                     </figure>
                     <figure className='item-habilidades'>
-                    <img className='icon-hab' src={android} alt="" />
+                        <img className='icon-hab' src={android} alt="" />
                         <p>Android Studio</p>
                     </figure>
                     <figure className='item-habilidades'>
-                    <img className='icon-hab' src={kotlin} alt="" />
+                        <img className='icon-hab' src={kotlin} alt="" />
                         <p>Kotlin</p>
                     </figure>
-                </div>
 
+                </div>
 
             </div>
         </section>

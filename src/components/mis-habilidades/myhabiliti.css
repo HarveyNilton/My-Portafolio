@@ -3,7 +3,7 @@
     margin: 0 auto;
     color: white;
     padding: 20px;
-  
+
 }
 
 .habilidades {
@@ -17,20 +17,20 @@
 
 }
 
-.icon-habilidades{
+.icon-habilidades {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px ;
     justify-content: center;
     align-items: center;
+    gap: 30px;
     
 }
 
-.icon-hab{
+.icon-hab {
     width: 50%;
 }
 
-.item-habilidades{
+.item-habilidades {
     margin-top: 20px;
     width: 120px;
     height: 120px;
@@ -44,30 +44,39 @@
     border-radius: 5px;
     box-shadow: 2px 2px 8px rgb(255, 255, 255);
     background: rgba(255, 255, 255, 0.068);
+   
 }
 
-.item-habilidades:hover{
+
+
+.item-habilidades:hover {
     transition: transform 0.5s;
     transform: scale(1.1);
     color: rgb(19, 18, 18);
     background: rgba(255, 255, 255, 0.281);
-   /* animation: changeColor 2s infinite;*/
+    /* animation: changeColor 2s infinite;*/
 }
 
 
-@keyframes changeColor{
-    0%{
-        background: #525252; 
+@keyframes borderColor {
+    0% {
+        border-bottom: 5px solid red;
     }
-    50%{
-        background: #39B5E0; 
+
+    25% {
+        border-left: 5px solid #39B5E0;
     }
-    100%{
-        background:#400D51; 
+
+    50% {
+        border-right: 5px solid #df2b7f;
+    }
+
+    100% {
+        border-top: 5px solid #400D51;
     }
 }
 
 
-.item-habilidades p{
+.item-habilidades p {
     text-align: center;
 }
