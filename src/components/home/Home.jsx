@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className="home">
             <article className='home-description'>
-                <h4>Diseñador y <br />  Programador Web</h4>
+                <h4>Programador Full Stack de  <br /> <span>Aplicativos Web</span> </h4>
                 <div className="red-social">
                     <a href="https://www.linkedin.com/in/harvey-nilton-lopez-qui%C3%B1ones-865a88224/" target="_blank">
 

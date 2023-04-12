@@ -17,11 +17,21 @@ function App() {
 
       <header className='header'>
         <div className="capa-header">
-          <h2 className='name-logo'>My Portafolio</h2>
+          <h2 className='name-logo'>Harvey <span>Lopez</span> </h2>
+          <ul className='content-menu show'>
+            <li><a href="/">Home</a></li>
+            <li><a href="#acerca-de-mi">Acerca de mi</a></li>
+            <li><a href="#habilidades">Mis habilidades</a></li>
+            <li><a href="#experiencia">Experiencias</a></li>
+            <li><a href="#portafolio">Mi portafolio</a></li>
+            <li><a href="#contacto">Contactame</a></li>
+           
+          </ul>
         </div>
       </header>
 
       <main className='main'>
+        <div className='content-colorfondo'></div>
 
         <Home />
         <section className='container-cv'>
@@ -44,11 +54,11 @@ function App() {
                 seguir estudiando Ingeniería de Sistemas ´
                 en la Universidad de Mi País (Perú) el cual
                 llegué a obtener varios conocimientos de
-                programación.<br/>
+                programación.<br />
                 Asi tambien desde el año 2001 me
                 encuentro laborando en la Marina de
                 Guerra del Perú en el que me han
-                disciplinado. <br/>
+                disciplinado. <br />
                 Desde octubre 2022 decidí seguir estudios
                 de programación el cual califique en
                 Academlo en el que obtuve conocimientos de

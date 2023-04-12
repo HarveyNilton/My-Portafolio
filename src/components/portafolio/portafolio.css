@@ -45,14 +45,14 @@
     justify-content: center;
     gap: 10px;
 
-    color: white;
+    color: #FF5722;
 
 }
 
 .item-portafolio:hover{
     transition: transform 0.5s;
     transform: scale(1.1);
-    color: rgb(19, 18, 18);
+    color: rgb(255, 255, 255);
     background: rgba(255, 255, 255, 0.281);
     /*animation: changeColor 4s infinite ;*/
 }

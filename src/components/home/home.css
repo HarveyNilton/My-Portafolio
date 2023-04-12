@@ -1,12 +1,13 @@
 .home {
     max-width: 800px;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap-reverse;
     padding: 20px;
     margin: 0 auto;
 
-
+ 
 }
 
 .home-description {
@@ -19,6 +20,7 @@
     padding: 20px;
     max-width: 400px;
     border-radius: 10px;
+   
     text-shadow: 2px 2px 8px rgb(37, 37, 37);
     /* box-shadow: 2px 2px 8px rgb(255, 255, 255);
     background: rgba(255, 255, 255, 0.068);*/
@@ -48,7 +50,7 @@
 
 @keyframes boxShad{
     50%{
-        box-shadow: 2px 2px 8px white; 
+        box-shadow: 2px 2px 8px  #FF5722;; 
     }
     100%{
        
@@ -75,6 +77,9 @@
     text-align: center;
     font-weight: normal;
 }
+.home-description span{
+    color: #FF5722;
+}
 
 .home-image-perfil {
 
@@ -82,13 +87,13 @@
     /*border: 1px solid white;
     box-shadow: 2px 2px 8px rgb(255, 255, 255);
     background: rgba(255, 255, 255, 0.068);*/
-
     gap: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+   
 
 
 }
@@ -97,12 +102,12 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    box-shadow: 2px 2px 8px rgb(255, 255, 255);
-    background: rgba(255, 255, 255, 0.068);
-    border: 2px solid rgba(255, 255, 255, 0.39);
+    box-shadow: 2px 2px 8px  #FF5722;;
+   
     display: flex;
     justify-content: center;
     overflow: hidden;
+    background: #FF5722;
 
  /*animation: animimageperfil 3s infinite;*/
     /*animation: animationBoxShadow 2s infinite;*/
@@ -117,8 +122,8 @@
     border-radius: 5px;
     text-shadow: 2px 2px 8px rgb(37, 37, 37);
     border: 2px solid rgba(255, 255, 255, 0.39);
-    box-shadow: 2px 2px 8px rgb(255, 255, 255);
-    
+    box-shadow: 2px 2px 8px #FF5722;
+    color: #FF5722;
 }
 
 .home-name-perfil:hover {
@@ -135,7 +140,8 @@
 
 @keyframes animimageperfil {
     50% {
-        background: rgba(255, 255, 255, 0.425);
+        background:  #FF5722;
+        color: white;
     }
 
     100% {
