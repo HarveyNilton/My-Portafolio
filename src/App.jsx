@@ -25,7 +25,7 @@ function App() {
             <li><a href="#experiencia">Experiencias</a></li>
             <li><a href="#portafolio">Mi portafolio</a></li>
             <li><a href="#contacto">Contactame</a></li>
-           
+
           </ul>
         </div>
       </header>
@@ -49,20 +49,10 @@ function App() {
           <div className="text">
             <h3 className='titulo'>Acerca de mi</h3>
             <div className='description-acerca-de-mi'>
-              <p>Soy una persona proactivo, siempre me ha
-                gustado la tecnología por lo que decidí
-                seguir estudiando Ingeniería de Sistemas ´
-                en la Universidad de Mi País (Perú) el cual
-                llegué a obtener varios conocimientos de
-                programación.<br />
-                Asi tambien desde el año 2001 me
-                encuentro laborando en la Marina de
-                Guerra del Perú en el que me han
-                disciplinado. <br />
-                Desde octubre 2022 decidí seguir estudios
-                de programación el cual califique en
-                Academlo en el que obtuve conocimientos de
-                Front-End y Backend con React y node.js  </p>
+              <p>Soy proactivo, siempre me ha fascinado la tecnología por lo que decidí continuar estudiando Ingeniería de Sistemas en la Universidad Telesup de Mi País (Perú) el cual obtenía conocimientos de programación básicos.
+               <br/> Así también desde el año 2001 me encuentro laborando en la Marina de Guerra del Perú, el cual nos manejamos disciplinadamente ya que es una característica principal de todo militar.
+               <br/> Desde octubre 2022 decidí continuar con los estudios de programación por lo que  califique en Academlo, para cursar  el bootcamp de Full-Stack, culminando satisfactoriamente en abril del 2023  con conocimientos de Front-End y Backend con React y node.js
+              </p>
             </div>
           </div>
 
