@@ -12,7 +12,7 @@
 }
 
 .name-logo {
-  width: 30%;
+  width: 50%;
   font-weight: 500;
   text-transform: uppercase;
   font-size: 1.2rem;
@@ -65,7 +65,7 @@
 }
 .content-colorfondo{
   position: absolute;
-  background: rgba(1, 1, 24, 0.932);
+  background: rgba(1, 1, 24, 0.842);
   top: 0;
   left: 0;
   right: 0;
@@ -80,6 +80,7 @@
   margin: 0 auto;
   color:#ffffff;
   padding: 20px;
+  transition: all 1s linear;
 }
 
 .text {
@@ -161,5 +162,8 @@
     align-items: center;
     justify-content: space-around;
     width: 70%;
+  }
+  .name-logo{
+    width: 30%;
   }
 }
